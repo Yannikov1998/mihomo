@@ -1,49 +1,65 @@
-discord.com
-discord.design
-cdn.discordapp.com
-cloudflarebolt.com
-cloudflareapps.com
-cloudflareaccess.com
-cloudflaretest.com
-cloudflarestream.com
-cloudflarestorage.com
-cloudflarestatus.com
-cloudflaressl.com
-cloudflareresolve.com
-cloudflarepreview.com
-cloudflareportal.com
-cloudflarepartners.com
-cloudflareok.com
-cloudflareinsights.com
-cloudflareclient.com
-cloudflare-ech.com
-localizeapi.com
-7tv.io
-7tv.app
-betterttv.net
-ffzap.com
-frankerfacez.com
-encryptedsni.com
-discord-attachments-uploads-prd.storage.googleapis.com
-discord.co
-dis.gd
-discord-activities.com
-discordactivities.com
-discordstatus.com
-discord.gifts
-discord.gift
-discord.new
-discord.dev
-discordcdn.com
-discord.media
-discord.app
-discord.gg
-discord.store
-discord.status
-discordapp.com
-discordmerch.com
-discordpartygames.com
-discordsays.com
-stable.dl2.discordapp.net
-discordsez.com
-discordapp.net
+payload:
+  # === Discord & связанные сервисы ===
+  - discord-attachments-uploads-prd.storage.googleapis.com
+  - stable.dl2.discordapp.net
+  - hammerandchisel.ssl.zendesk.com
+  - +.dis.gd
+  - +.discord.co
+  - +.discord.com
+  - +.discord.design
+  - +.discord.dev
+  - +.discord.gg
+  - +.discord.gift
+  - +.discord.gifts
+  - +.discord.media
+  - +.discord.new
+  - +.discord.store
+  - +.discord.tools
+  - +.discord-activities.com
+  - +.discordactivities.com
+  - +.discordapp.com
+  - +.discordapp.net
+  - +.discordmerch.com
+  - +.discordpartygames.com
+  - +.discordsays.com
+  - +.discordstatus.com
+  - +.discordapp.io
+  - +.discordcdn.com
+  # Конкретные поддомены (если не покрываются вайлдкардом в вашей системе)
+  - cdn.discordapp.com
+  - discord.app
+  - discord.status
+  - discordsez.com
+
+  # === Cloudflare сервисы ===
+  - +.cloudflarebolt.com
+  - +.cloudflareapps.com
+  - +.cloudflareaccess.com
+  - +.cloudflaretest.com
+  - +.cloudflarestream.com
+  - +.cloudflarestorage.com
+  - +.cloudflarestatus.com
+  - +.cloudflaressl.com
+  - +.cloudflareresolve.com
+  - +.cloudflarepreview.com
+  - +.cloudflareportal.com
+  - +.cloudflarepartners.com
+  - +.cloudflareok.com
+  - +.cloudflareinsights.com
+  - +.cloudflareclient.com
+  - +.cloudflare-ech.com
+
+  # === Расширения для стриминга (Twitch/7TV/BTTV/FFZ) ===
+  - +.localizeapi.com
+  - +.7tv.io
+  - +.7tv.app
+  - +.betterttv.net
+  - +.ffzap.com
+  - +.frankerfacez.com
+  - +.encryptedsni.com
+
+  # === Прочие связанные домены ===
+  - +.airhorn.solutions
+  - +.airhornbot.com
+  - +.bigbeans.solutions
+  - +.watchanimeattheoffice.com
